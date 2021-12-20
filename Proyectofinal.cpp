@@ -1,20 +1,13 @@
 #include <stdio.h>
-
 #include "SUMA.h"
-
 #include "Division.h"
-
- 
+#include "Resta.h"
+#include "Multiplicacion.h" 
 
 int main()
 
 {
-
- 
-
- 
-
-int numero,x,y,resultado;
+int numero,x,y,resultado,a,b;
 
 float numerador,denominador;
 
@@ -100,15 +93,7 @@ printf("Digite el segundo numero a restar\n");
 
 scanf_s("%i",&y);
 
- 
-
-//pendiente libreria de monse
-
- 
-
- 
-
-resultado=x-y;
+resultado=Resta(a,b);
 
 printf("EL resultado es:%i",resultado);
 
@@ -160,15 +145,8 @@ printf("Digite el segundo numero a sumar\n");
 
 scanf_s("%i",&y);
 
- 
+resultado=Multiplicacion(x,y);
 
-//PENDEINTE libreria gravi
-
- 
-
-resultado=(x*y);
-
- 
 
 printf("EL resultado es:%i",resultado);
 
