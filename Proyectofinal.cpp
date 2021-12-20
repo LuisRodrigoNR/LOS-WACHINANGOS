@@ -119,7 +119,7 @@ scanf_s("%f",&denominador);
 
  
 
-resultado=DIVISION(x,y);
+resultado=dividir(x,y);
 
  
 
@@ -146,7 +146,6 @@ printf("Digite el segundo numero a sumar\n");
 scanf_s("%i",&y);
 
 resultado=Multiplicacion(x,y);
-
 
 printf("EL resultado es:%i",resultado);
 
